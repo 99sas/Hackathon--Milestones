@@ -1,0 +1,98 @@
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e63946;
+    margin: 0;
+    padding: 0; /* Fixed padding issue */
+}
+
+/* Resume container styling */
+.Resume-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Added background color for better contrast */
+}
+
+/* Left section styling */
+.--Left-section { /* Fixed class name */
+    background-color: #2c2c2c;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items */
+    text-align: left; /* Text alignment fix */
+}
+
+/* Profile picture styling 
+/*.profile0-picture
+    width: 100%; 
+    height: 100%; 
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #e63946;
+    margin-bottom: 20px;
+}*/
+.--Left-section   img{
+    width:200px ;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+    
+
+
+
+
+/* Section headers styling */
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #e63946;
+    background-color: white; /* Added background color for readability */
+}
+
+/* List styling */
+ul {
+    list-style-type: disc; /* Fixed list style */
+    padding: 0 20px; /* Adjusted padding */
+    margin: 10px 0; /* Adjusted margin */
+}
+
+ul li {
+    margin-bottom: 10px; /* Adjusted margin */
+}
+
+/* Right Section Styling */
+.Right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+/* Button styling */
+button { 
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 1px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: white; /* Default background color */
+}
+
+/* Hover effect */
+button:hover {
+    background-color:aqua;
+}
